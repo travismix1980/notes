@@ -1,3 +1,5 @@
 const notes = require('./notes');
 
-console.log(notes.getNotes());
+const msg = notes.getNotes();
+
+console.log(msg);

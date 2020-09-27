@@ -10,10 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a3c6651-df7c-4abc-b7b1-3e67508e4a04" name="Default Changelist" comment="updated utils.js so that our name variable is being exported from it into app.js">
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils.js" afterDir="false" />
-    </list>
+    <list default="true" id="6a3c6651-df7c-4abc-b7b1-3e67508e4a04" name="Default Changelist" comment="removed utils.js and added notes.js  Created initial version of getNotes() to test our setup initially" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,7 +63,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601172778059</updated>
-      <workItem from="1601172779100" duration="2093000" />
+      <workItem from="1601172779100" duration="2404000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1601174109204</created>
@@ -89,7 +86,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601174604943</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="removed utils.js and added notes.js  Created initial version of getNotes() to test our setup initially">
+      <created>1601175095029</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1601175095029</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,37 +129,38 @@
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Added a new file utils to practice require()" />
     <MESSAGE value="updated utils.js so that our name variable is being exported from it into app.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated utils.js so that our name variable is being exported from it into app.js" />
+    <MESSAGE value="removed utils.js and added notes.js  Created initial version of getNotes() to test our setup initially" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed utils.js and added notes.js  Created initial version of getNotes() to test our setup initially" />
   </component>
   <component name="WindowStateProjectService">
     <state x="717" y="392" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1601173919443">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="717" y="392" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601173919443" />
-    <state width="326" height="606" key="Diff.GoToChangePopup" timestamp="1601174406073">
+    <state width="326" height="606" key="Diff.GoToChangePopup" timestamp="1601175134002">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="326" height="606" key="Diff.GoToChangePopup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601174406073" />
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1601174503123">
+    <state width="326" height="606" key="Diff.GoToChangePopup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601175134002" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1601175195536">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601174503123" />
-    <state width="1897" height="281" key="GridCell.Tab.0.bottom" timestamp="1601174795591">
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601175195536" />
+    <state width="1897" height="281" key="GridCell.Tab.0.bottom" timestamp="1601175155584">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1897" height="281" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601174795591" />
-    <state width="1897" height="281" key="GridCell.Tab.0.center" timestamp="1601174795591">
+    <state width="1897" height="281" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601175155584" />
+    <state width="1897" height="281" key="GridCell.Tab.0.center" timestamp="1601175155584">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1897" height="281" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601174795591" />
-    <state width="1897" height="281" key="GridCell.Tab.0.left" timestamp="1601174795591">
+    <state width="1897" height="281" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601175155584" />
+    <state width="1897" height="281" key="GridCell.Tab.0.left" timestamp="1601175155584">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1897" height="281" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601174795591" />
-    <state width="1897" height="281" key="GridCell.Tab.0.right" timestamp="1601174795591">
+    <state width="1897" height="281" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601175155584" />
+    <state width="1897" height="281" key="GridCell.Tab.0.right" timestamp="1601175155584">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1897" height="281" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601174795591" />
+    <state width="1897" height="281" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601175155584" />
     <state x="780" y="427" key="VCS.ChangelistChooser" timestamp="1601174545432">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

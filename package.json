@@ -7,5 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Travis Mix",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "validator": "^13.1.17"
+  }
 }

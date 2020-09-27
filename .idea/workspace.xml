@@ -10,7 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a3c6651-df7c-4abc-b7b1-3e67508e4a04" name="Default Changelist" comment="Added a new file utils to practice require()">
+    <list default="true" id="6a3c6651-df7c-4abc-b7b1-3e67508e4a04" name="Default Changelist" comment="updated utils.js so that our name variable is being exported from it into app.js">
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils.js" afterDir="false" />
     </list>
@@ -66,7 +66,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601172778059</updated>
-      <workItem from="1601172779100" duration="1717000" />
+      <workItem from="1601172779100" duration="2093000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1601174109204</created>
@@ -82,7 +82,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601174360284</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="updated utils.js so that our name variable is being exported from it into app.js">
+      <created>1601174604943</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1601174604943</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,7 +124,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Added a new file utils to practice require()" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added a new file utils to practice require()" />
+    <MESSAGE value="updated utils.js so that our name variable is being exported from it into app.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated utils.js so that our name variable is being exported from it into app.js" />
   </component>
   <component name="WindowStateProjectService">
     <state x="717" y="392" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1601173919443">
@@ -132,21 +140,25 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601174503123" />
-    <state width="1897" height="281" key="GridCell.Tab.0.bottom" timestamp="1601174475762">
+    <state width="1897" height="281" key="GridCell.Tab.0.bottom" timestamp="1601174795591">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1897" height="281" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601174475762" />
-    <state width="1897" height="281" key="GridCell.Tab.0.center" timestamp="1601174475762">
+    <state width="1897" height="281" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601174795591" />
+    <state width="1897" height="281" key="GridCell.Tab.0.center" timestamp="1601174795591">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1897" height="281" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601174475762" />
-    <state width="1897" height="281" key="GridCell.Tab.0.left" timestamp="1601174475762">
+    <state width="1897" height="281" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601174795591" />
+    <state width="1897" height="281" key="GridCell.Tab.0.left" timestamp="1601174795591">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1897" height="281" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601174475762" />
-    <state width="1897" height="281" key="GridCell.Tab.0.right" timestamp="1601174475762">
+    <state width="1897" height="281" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601174795591" />
+    <state width="1897" height="281" key="GridCell.Tab.0.right" timestamp="1601174795591">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1897" height="281" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601174475762" />
+    <state width="1897" height="281" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601174795591" />
+    <state x="780" y="427" key="VCS.ChangelistChooser" timestamp="1601174545432">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="780" y="427" key="VCS.ChangelistChooser/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601174545432" />
   </component>
 </project>

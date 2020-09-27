@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a3c6651-df7c-4abc-b7b1-3e67508e4a04" name="Default Changelist" comment="" />
+    <list default="true" id="6a3c6651-df7c-4abc-b7b1-3e67508e4a04" name="Default Changelist" comment="Added a new file utils to practice require()">
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,8 +66,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601172778059</updated>
-      <workItem from="1601172779100" duration="1281000" />
+      <workItem from="1601172779100" duration="1717000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial Commit">
+      <created>1601174109204</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1601174109204</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added a new file utils to practice require()">
+      <created>1601174360284</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1601174360284</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -71,27 +98,55 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial Commit" />
+    <MESSAGE value="Added a new file utils to practice require()" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a new file utils to practice require()" />
   </component>
   <component name="WindowStateProjectService">
     <state x="717" y="392" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1601173919443">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="717" y="392" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601173919443" />
-    <state width="1897" height="281" key="GridCell.Tab.0.bottom" timestamp="1601173995018">
+    <state width="326" height="606" key="Diff.GoToChangePopup" timestamp="1601174406073">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1897" height="281" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601173995018" />
-    <state width="1897" height="281" key="GridCell.Tab.0.center" timestamp="1601173995017">
+    <state width="326" height="606" key="Diff.GoToChangePopup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601174406073" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1601174503123">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1897" height="281" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601173995017" />
-    <state width="1897" height="281" key="GridCell.Tab.0.left" timestamp="1601173995017">
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601174503123" />
+    <state width="1897" height="281" key="GridCell.Tab.0.bottom" timestamp="1601174475762">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1897" height="281" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601173995017" />
-    <state width="1897" height="281" key="GridCell.Tab.0.right" timestamp="1601173995018">
+    <state width="1897" height="281" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601174475762" />
+    <state width="1897" height="281" key="GridCell.Tab.0.center" timestamp="1601174475762">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1897" height="281" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601173995018" />
+    <state width="1897" height="281" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601174475762" />
+    <state width="1897" height="281" key="GridCell.Tab.0.left" timestamp="1601174475762">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1897" height="281" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601174475762" />
+    <state width="1897" height="281" key="GridCell.Tab.0.right" timestamp="1601174475762">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1897" height="281" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601174475762" />
   </component>
 </project>

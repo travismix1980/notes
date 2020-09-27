@@ -9,6 +9,11 @@
   "author": "Travis Mix",
   "license": "ISC",
   "dependencies": {
+    "@types/validator": "^13.1.0",
+    "node": "^12.18.4",
     "validator": "^13.1.17"
+  },
+  "devDependencies": {
+    "chalk": "^2.4.1"
   }
 }

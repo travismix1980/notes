@@ -11,12 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a3c6651-df7c-4abc-b7b1-3e67508e4a04" name="Default Changelist" comment="slight modification to app.js setup">
-      <change afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/validator/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/validator/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +54,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/node_modules/validator" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Node.js.app.js">
@@ -94,7 +89,7 @@
       <workItem from="1601172779100" duration="2848000" />
       <workItem from="1601175650693" duration="1460000" />
       <workItem from="1601177127211" duration="2973000" />
-      <workItem from="1601267522930" duration="2405000" />
+      <workItem from="1601267522930" duration="2712000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1601174109204</created>
@@ -152,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601198830260</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="did some basic validator testing and figuring out how to get intellesense working with npm packages">
+      <created>1601270063166</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1601270063166</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,6 +196,7 @@
     <MESSAGE value="slight modification to app.js setup" />
     <MESSAGE value="Ran npm init to create our project.json file" />
     <MESSAGE value="installed validator npm package" />
+    <MESSAGE value="added and played with chalk 2.4.1" />
     <MESSAGE value="did some basic validator testing and figuring out how to get intellesense working with npm packages" />
     <option name="LAST_COMMIT_MESSAGE" value="did some basic validator testing and figuring out how to get intellesense working with npm packages" />
   </component>
@@ -218,26 +221,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="750" y="249" key="FileChooserDialogImpl/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601177379604" />
-    <state width="1897" height="281" key="GridCell.Tab.0.bottom" timestamp="1601269560127">
+    <state width="1897" height="281" key="GridCell.Tab.0.bottom" timestamp="1601270154742">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1897" height="281" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601269560127" />
-    <state width="1897" height="281" key="GridCell.Tab.0.center" timestamp="1601269560127">
+    <state width="1897" height="281" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601270154742" />
+    <state width="1897" height="281" key="GridCell.Tab.0.center" timestamp="1601270154742">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1897" height="281" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601269560127" />
-    <state width="1897" height="281" key="GridCell.Tab.0.left" timestamp="1601269560127">
+    <state width="1897" height="281" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601270154742" />
+    <state width="1897" height="281" key="GridCell.Tab.0.left" timestamp="1601270154742">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1897" height="281" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601269560127" />
-    <state width="1897" height="281" key="GridCell.Tab.0.right" timestamp="1601269560127">
+    <state width="1897" height="281" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601270154742" />
+    <state width="1897" height="281" key="GridCell.Tab.0.right" timestamp="1601270154742">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1897" height="281" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601269560127" />
-    <state x="460" y="163" key="SettingsEditor" timestamp="1601269942145">
+    <state width="1897" height="281" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601270154742" />
+    <state x="460" y="163" key="SettingsEditor" timestamp="1601270250802">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="460" y="163" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601269942145" />
+    <state x="460" y="163" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601270250802" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1601177801587">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

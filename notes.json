@@ -1,9 +1,5 @@
 [
   {
-    "title": "t",
-    "body": "t"
-  },
-  {
     "title": "List",
     "body": "Sweater"
   },
@@ -14,5 +10,17 @@
   {
     "title": "Shopping2",
     "body": "eggs, bacon, waffles"
+  },
+  {
+    "title": "Another Note",
+    "body": "We are doing another fun note thing to make sure nothing broke since yesterday cause why not?"
+  },
+  {
+    "title": "One More",
+    "body": "One more note to test arrow functions refactor"
+  },
+  {
+    "title": "One More Again",
+    "body": "One more note to test arrow functions refactor"
   }
 ]

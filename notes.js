@@ -1,13 +1,9 @@
 const fs = require('fs');
 const chalk = require('chalk');
 
-const getNotes = function(){
-    return 'Your notes...';
-}
-
 const addNote = function(title, body){
     const notes = loadNotes();
-    const duplicateNotes = notes.filter(function(note){
+    const duplicateNotes = notes.filter((note) => {
         return note.title === title;
     });
 
@@ -17,29 +13,41 @@ const addNote = function(title, body){
             body,
         });
         saveNotes(notes);
-        console.log(chalk.green.inverse('New note added'));
+        console.log(chalk.green('New note added'));
     }else{
-        console.log(chalk.red.inverse('Note title already used please rewrite note with a different title'));
+        console.log(chalk.red('Note title already used please rewrite note with a different title'));
     }
 }
-const removeNote = function(title){
+const removeNote = (title) =>{
     const notes = loadNotes();
-    const modifiedNotes = notes.filter(function(note){
+    const modifiedNotes = notes.filter((note) => {
         return note.title !== title;
     });
     if(notes.length === modifiedNotes.length){
-        console.log(chalk.red.inverse('No matching note found to be removed'));
+        console.log(chalk.red('No matching note found to be removed'));
     } else{
-        console.log(chalk.green.inverse('Note Removed'));
+        console.log(chalk.green('Note Removed'));
         saveNotes(modifiedNotes);
     }
 }
 
-const saveNotes = function(notes){
+const listNotes = () => {
+    const notes = loadNotes();
+    if(notes.length > 0){
+        console.log(chalk.green('Displaying note titles'));
+        notes.forEach((note) =>{
+            console.log(chalk.whiteBright(note.title));
+        });
+    } else {
+        console.log(chalk.red('No note titles to display'));
+    }
+}
+
+const saveNotes = (notes) =>{
     fs.writeFileSync('notes.json', JSON.stringify(notes));
 }
 
-const loadNotes = function(){
+const loadNotes = () =>{
     try{
         return JSON.parse(fs.readFileSync('notes.json').toString());
     }catch(e){
@@ -48,4 +56,4 @@ const loadNotes = function(){
 
 }
 
-module.exports = {getNotes, addNote, removeNote};
+module.exports = {addNote, removeNote, listNotes};

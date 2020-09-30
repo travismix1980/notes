@@ -6,16 +6,28 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a3c6651-df7c-4abc-b7b1-3e67508e4a04" name="Default Changelist" comment="slight modification to app.js setup">
-      <change afterPath="$PROJECT_DIR$/notes.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notes.js" beforeDir="false" afterPath="$PROJECT_DIR$/notes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notes.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +42,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="032da10ef3dffeaafc78aa7787006ac42032966b" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
@@ -81,9 +98,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.test" />
         <item itemvalue="Node.js.app.js" />
         <item itemvalue="Node.js.1-json.js" />
-        <item itemvalue="npm.test" />
+        <item itemvalue="Node.js.app.js" />
+        <item itemvalue="Node.js.1-json.js" />
       </list>
     </recent_temporary>
   </component>
@@ -204,7 +223,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -240,17 +271,18 @@
     <MESSAGE value="more done with chalk again I know" />
     <MESSAGE value="final commit for 9/27/2020" />
     <MESSAGE value="added yargs and started setting up our yargs commands" />
-    <option name="LAST_COMMIT_MESSAGE" value="added yargs and started setting up our yargs commands" />
+    <MESSAGE value="read note by title functionality added app complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="read note by title functionality added app complete" />
   </component>
   <component name="WindowStateProjectService">
     <state x="838" y="417" key="#Custom_Plugin_Repositories" timestamp="1601316651135">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="838" y="417" key="#Custom_Plugin_Repositories/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601316651135" />
-    <state x="710" y="342" key="#Notifications" timestamp="1601316504921">
+    <state x="710" y="342" key="#Notifications" timestamp="1601427335246">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="710" y="342" key="#Notifications/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601316504921" />
+    <state x="710" y="342" key="#Notifications/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601427335246" />
     <state x="758" y="353" key="#Usage_Scope" timestamp="1601178338957">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -263,10 +295,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="326" height="606" key="Diff.GoToChangePopup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601175134002" />
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1601175195536">
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1601427160507">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601175195536" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601427160507" />
     <state x="750" y="249" key="FileChooserDialogImpl" timestamp="1601177379604">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

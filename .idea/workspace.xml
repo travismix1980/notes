@@ -11,9 +11,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a3c6651-df7c-4abc-b7b1-3e67508e4a04" name="Default Changelist" comment="slight modification to app.js setup">
+      <change afterPath="$PROJECT_DIR$/notes.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notes.js" beforeDir="false" afterPath="$PROJECT_DIR$/notes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,14 +62,11 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Node.js.arrowfunctions.js">
+  <component name="RunManager" selected="Node.js.app.js">
     <configuration name="1-json.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$APPLICATION_CONFIG_DIR$/scratches/1-json.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="app.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/app.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
-    <configuration name="arrowfunctions.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$APPLICATION_CONFIG_DIR$/scratches/arrowfunctions.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -82,7 +81,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.arrowfunctions.js" />
         <item itemvalue="Node.js.app.js" />
         <item itemvalue="Node.js.1-json.js" />
         <item itemvalue="npm.test" />
@@ -102,9 +100,7 @@
       <workItem from="1601177127211" duration="2973000" />
       <workItem from="1601267522930" duration="4776000" />
       <workItem from="1601316487603" duration="234000" />
-      <workItem from="1601316730763" duration="12580000" />
-      <workItem from="1601405498973" duration="181000" />
-      <workItem from="1601419833585" duration="4406000" />
+      <workItem from="1601316730763" duration="12228000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1601174109204</created>
@@ -197,21 +193,7 @@
       <option name="project" value="LOCAL" />
       <updated>1601322264651</updated>
     </task>
-    <task id="LOCAL-00014" summary="added functionality to add and remove notes via a cli">
-      <created>1601332945755</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1601332945755</updated>
-    </task>
-    <task id="LOCAL-00015" summary="list notes functionality added">
-      <created>1601424869449</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1601424869449</updated>
-    </task>
-    <option name="localTasksCounter" value="16" />
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -258,9 +240,7 @@
     <MESSAGE value="more done with chalk again I know" />
     <MESSAGE value="final commit for 9/27/2020" />
     <MESSAGE value="added yargs and started setting up our yargs commands" />
-    <MESSAGE value="added functionality to add and remove notes via a cli" />
-    <MESSAGE value="list notes functionality added" />
-    <option name="LAST_COMMIT_MESSAGE" value="list notes functionality added" />
+    <option name="LAST_COMMIT_MESSAGE" value="added yargs and started setting up our yargs commands" />
   </component>
   <component name="WindowStateProjectService">
     <state x="838" y="417" key="#Custom_Plugin_Repositories" timestamp="1601316651135">
@@ -291,22 +271,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="750" y="249" key="FileChooserDialogImpl/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601177379604" />
-    <state width="1897" height="281" key="GridCell.Tab.0.bottom" timestamp="1601421517149">
+    <state width="1897" height="281" key="GridCell.Tab.0.bottom" timestamp="1601329475167">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1897" height="281" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601421517149" />
-    <state width="1897" height="281" key="GridCell.Tab.0.center" timestamp="1601421517149">
+    <state width="1897" height="281" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601329475167" />
+    <state width="1897" height="281" key="GridCell.Tab.0.center" timestamp="1601329475167">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1897" height="281" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601421517149" />
-    <state width="1897" height="281" key="GridCell.Tab.0.left" timestamp="1601421517149">
+    <state width="1897" height="281" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601329475167" />
+    <state width="1897" height="281" key="GridCell.Tab.0.left" timestamp="1601329475166">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1897" height="281" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601421517149" />
-    <state width="1897" height="281" key="GridCell.Tab.0.right" timestamp="1601421517149">
+    <state width="1897" height="281" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601329475166" />
+    <state width="1897" height="281" key="GridCell.Tab.0.right" timestamp="1601329475167">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1897" height="281" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601421517149" />
+    <state width="1897" height="281" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601329475167" />
     <state x="460" y="163" key="SettingsEditor" timestamp="1601316674898">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -319,10 +299,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="780" y="427" key="VCS.ChangelistChooser/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601174545432" />
-    <state x="551" y="249" key="Vcs.Push.Dialog.v2" timestamp="1601424880228">
+    <state x="551" y="249" key="Vcs.Push.Dialog.v2" timestamp="1601322274078">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="551" y="249" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601424880228" />
+    <state x="551" y="249" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601322274078" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1601177565425">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
